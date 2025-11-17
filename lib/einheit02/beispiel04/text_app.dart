@@ -10,7 +10,7 @@ class TextApp extends StatefulWidget {
 }
 
 class _TextAppState extends State<TextApp> {
-  TextEditingController _controller = TextEditingController();
+  final TextEditingController _controller = TextEditingController();
   String data = "noch leer";
 
   void changeText() {
